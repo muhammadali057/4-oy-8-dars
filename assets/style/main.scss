@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Roboto-500';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: darkgray;
+}
+
+.container {
+    max-width: 1440px;
+    height: 2400px;
+    background: #FFFFFF;
+    margin: 0 auto;
+
+    .box {
+        max-width: 1440px;
+        height: 77px;
+        background: linear-gradient(269.91deg, rgba(46, 49, 146, 0.7) 0%, rgba(212, 20, 90, 0.7) 98.16%);
+        display: flex;
+        padding: 25px 150px;
+
+        .box1 {
+            max-width: 391px;
+            height: 20px;
+            display: flex;
+            gap: 10px;
+            .bi-telephone {
+                color: white;
+            }
+
+            .tel_text {
+                font-size: 15px;
+                line-height: 10px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FFFFFF;
+                font-family: 'Roboto-500';
+            }
+
+            .href {
+                text-decoration: none;
+            }
+        }
+
+        .box2 {
+            max-width: 338px;
+            height: 30px;
+            margin-left: 200px;
+
+            .bi-geo-alt-fill {
+                color: #FFFFFF;
+
+            }
+
+            .logo_text {
+                margin-left: 20px;
+                margin-top: -20px;
+                color: #FFFFFF;
+                font-family: 'Roboto-500';
+            }
+        }
+
+        .fa-instagram {
+            color: #FFFFFF;
+            margin-left: 80px;
+        }
+
+        .instagram_text {
+            max-width: 128px;
+            height: 25px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #FFFFFF;
+            font-family: 'Roboto-500';
+            margin-left: 100px;
+            margin-top: -20px;
+        }
+    }
+
+    .box3 {
+        margin-left: 200px;
+    }
+
+    @media only screen and (max-width:1405px) {
+        .box {
+            padding: 25px 100px;
+        }
+    }
+    @media only screen and (max-width:1305px) {
+        .box {
+            padding: 25px 50px;
+        }
+    }
+    @media only screen and (max-width:1305px) {
+       
+    @media only screen and (max-width:768px) {
+        // .box1 {
+        //     // padding: 25px 50px;
+        //     display: block;
+        // }
+    }
+
+    .nav{
+        width: 1085px;
+    height: 42px;
+    border: 2px solid black;
+    margin: 0 auto;
+    }
+}
+}
